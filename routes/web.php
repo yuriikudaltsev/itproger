@@ -24,6 +24,10 @@ Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
+Route::get('/test-page', function () {
+    return view('test-page');
+})->name('test-page');
+
 Route::get(
   '/contact/all/{id}',
   'App\Http\Controllers\ContactController@showOneMassage'

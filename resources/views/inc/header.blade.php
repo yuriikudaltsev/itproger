@@ -5,5 +5,6 @@
       <a class="p-2 text-dark text-decoration-none" href="{{ route('about') }}">Про нас</a>
       <a class="p-2 text-dark text-decoration-none" href="{{ route('contact') }}">Контакти</a>
       <a class="p-2 text-dark text-decoration-none" href="{{ route('contact-data') }}">Повідомлення</a>
+      <a class="p-2 text-dark text-decoration-none" href="{{ route('test-page') }}">Тест-сторінка</a>
     </nav>
   </div>
